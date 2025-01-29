@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exclusive</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-sm navbar-default bg-white fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="./figma.html">Exclusive</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./figma.html"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link slide-Move" href="javascript:void(0)">Content</a>
+            <div class="slider">
+              <ul class="fashion mt-4">
+                <li><a href="">Woman's Fashion</a></li>
+                <li><a href="">Men's Fashion</a></li>
+                <li><a href="./account.html">Electronics</a></li>
+                <li><a href="./cart.html">Home & Lifestyle</a></li>
+                <li><a href="./havic.html">Medicine</a></li>
+                <li><a href="./story.html">Sports & Outdoor</a></li>
+                <li><a href="./wishlist.html">Baby's & Toys</a></li>
+                <li><a href="./check.html">Groceries & pets</a></li>
+                <li><a href="./error.html">Health & Beauty</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./check.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html">Sign UP</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control bg-light border-0" type="text" name="search" placeholder="What are you looking for?">
+          <button class="btn bot bg-light" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="btn bot" type="button"><i class="fa-regular fa-heart"></i></button>
+          <button class="btn bot" type="button"><i class="fa-solid fa-cart-shopping"></i>            
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container parent-Div">
+    <div class="row">
+      <div class="col-sm-2 bor">
+        <ul class="fashion mt-4">
+          <li><a href="">Woman's Fashion</a></li>
+          <li><a href="">Men's Fashion</a></li>
+          <li><a href="">Electronics</a></li>
+          <li><a href="">Home & Lifestyle</a></li>
+          <li><a href="">Medicine</a></li>
+          <li><a href="">Sports & Outdoor</a></li>
+          <li><a href="">Baby's & Toys</a></li>
+          <li><a href="">Groceries & pets</a></li>
+          <li><a href="">Health & Beauty</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-10 p-5 mt-5">
+          <div id="demo" class="carousel slide mt-2 carousel-Animate" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row heigt">
+                  <div class="black line d-flex">
+                    <div class="col-sm-6 p-4 mt-4">
+                      <div class="marg">
+                        <div class="d-flex gap-3 text-white size">
+                        <div class="apple"><i class="fa-brands fa-apple"></i></div>
+                        <div class="mt-4">iPhone 14 Series</div>
+                      </div>
+                      <div class="text-white mt-3">
+                        <h1>Up to 10% <br>off Voucher</h1>
+                      </div>
+                      <div class="bot btn text-white mt-2">
+                        <button type="button" class="black border-0 text-white">Shop Now </button><i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mt-3">
+                    <img src="./picture/iphone.png" alt="">
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row heigt">
+                  <div class="bg-primary d-flex">
+                    <div class="col-sm-6 p-4 mt-4">
+                      <div class="marg">
+                        <div class="d-flex gap-3 text-white size">
+                          <div class="apple"><i class="fa-brands fa-apple"></i></div>
+                          <div class="mt-4">iPhone 14 Series</div>
+                        </div>
+                        <div class="text-white mt-3">
+                          <h1>Up to 10% <br>off Voucher</h1>
+                        </div>
+                        <div class="bot btn text-white mt-2">
+                          <button type="button" class="bg-primary border-0 text-white">Shop Now </button><i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 mt-3">
+                    <img src="./picture/iphone.png" alt="">
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row heigt">
+                  <div class="back d-flex">
+                    <div class="col-sm-6 p-4">
+                      <div class="marg">
+                        <div class="d-flex gap-3 text-white size ">
+                          <div class="apple"><i class="fa-brands fa-apple"></i></div>
+                          <div class="mt-4">iPhone 14 Series</div>
+                        </div>
+                        <div class="text-white mt-3">
+                          <h1>Up to 10% <br>off Voucher</h1>
+                        </div>
+                        <div class="bot btn text-white mt-2">
+                          <button type="button" class="back border-0 text-white">Shop Now </button><i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 mt-3">
+                    <img src="./picture/iphone.png" alt="">
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ </div>
+<div class="container">
+  <div class="d-flex top gap-3">
+    <div class="bg-danger box"></div>
+    <div class="text-danger mt-1 today">Today's</div>
+  </div> 
+  <div class="d-flex gap-5">
+    <div class="mt-4"><h2>Flash Sales</h2></div>
+    <div class="d-flex gap-2 me-auto mx-5">
+      <div>
+       <span class="today">Days</span>
+        <h2>03</h2>
+      </div>
+      <div class="mt-3 text-danger point">:</div>
+      <div>
+        <span class="today">Hours</span>
+        <h2>23</h2>
+      </div>
+      <div class="mt-3 text-danger point">:</div>
+      <div>
+        <span class="today">Minutes</span>
+        <h2>19</h2>
+      </div>
+      <div class="mt-3 text-danger point">:</div>
+      <div>
+       <span class="today">Second</span>
+        <h2>56</h2>
+      </div>
+    </div>
+    <div class="mt-4">
+      <button type="button" class="btn arow"><i class="fa-solid fa-arrow-right"></i></button>
+      <button type="button" class="btn arow"><i class="fa-solid fa-arrow-left"></i></button>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-40%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3"><img src="./picture/remote.png" alt=""></div>
+      </div>
+      <div class="mt-2"><strong>HAVIT HV-G92 Gamepad</strong></div>
+      <div class="text-danger">$375 <span class="text-dark">$400</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(88)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-35%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3 py-4"><img src="./picture/keyboard.png" alt=""></div>
+      </div>
+      <div class="mt-2"><strong>AK-900 Wired Keyboard</strong></div>
+      <div class="text-danger">$375 <span class="text-dark">$400</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> (75)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-30%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3 py-3"><img src="./picture/tv.png" alt="" width="155px"></div>
+      </div>
+      <div class="mt-2"><strong>IPS LCD Gaming Monitor</strong></div>
+      <div class="text-danger">$375 <span class="text-dark">$400</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> (93)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-25%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3"><img src="./picture/chair.png" alt="" width="88px"></div>
+      </div>
+      <div class="mt-2"><strong>S-Series Comfort Chair</strong></div>
+      <div class="text-danger">$375 <span class="text-dark">$400</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(99)</span></div>
+    </div>
+  </div>
+  <div class="text-center mt-5"><button type="button" class="btn btn-danger px-4 py-2">View All Products</button></div>
+  <div class="border mt-5"></div>
+  
+
+
+  <div>
+    <div class="d-flex mt-5 gap-3">
+      <div class="bg-danger box"></div>
+      <div class="text-danger mt-1 today">Categories</div>
+    </div>
+    <div class="d-flex mt-3">
+      <div class="me-auto"><h2>Browse By Category</h2></div>
+      <div>
+        <button type="button" class="btn arow"><i class="fa-solid fa-arrow-right"></i></button>
+        <button type="button" class="btn arow"><i class="fa-solid fa-arrow-left"></i></button>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-2">
+        <div class="border text-center p-3">
+          <div><img src="./picture/Category-CellPhone.png" alt=""></div>
+          <div class="mt-2">Phones</div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="border text-center p-3">
+          <div><img src="./picture/Category-Computer.png" alt=""></div>
+          <div class="mt-2">Computers</div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="border text-center p-3">
+          <div><img src="./picture/Category-Gamepad.png" alt=""></div>
+          <div class="mt-2">Gaming</div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="border text-center p-3 bg-danger">
+          <div><img src="./picture/Category-Camera.png" alt=""></div>
+          <div class="mt-2 text-white">Camera</div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="border text-center p-3">
+          <div><img src="./picture/Category-Headphone.png" alt=""></div>
+          <div class="mt-2">Headphone</div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="border text-center p-3">
+          <div><img src="./picture/Category-Gamepad.png" alt=""></div>
+          <div class="mt-2">Gaming</div>
+        </div>
+      </div>
+    </div>
+    <div class="border mt-5"></div>
+  </div>
+
+  <div>
+    <div class="d-flex mt-5 gap-3">
+      <div class="bg-danger box"></div>
+      <div class="text-danger mt-1 today">This Month</div>
+    </div>
+    <div class="d-flex mt-4">
+      <div class="me-auto"><h2>Best Selling Products</h2></div>
+      <div><button type="button" class="btn btn-danger">View All</button></div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-3 ">
+        <div class="bg-light p-2">
+          <div class="d-flex">
+              <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-40%</button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+          </div>
+          <div class="text-center mt-3"><img src="./picture/coat.png" alt=""></div>
+        </div>
+        <div class="mt-2"><strong>The north coat</strong></div>
+        <div class="text-danger">$260 <span class="text-dark">$360</span></div>
+        <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(65)</span></div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="bg-light p-2">
+          <div class="d-flex">
+              <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-35%</button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+          </div>
+          <div class="text-center mt-3 py-4"><img src="./picture/bag.png" alt="" width="136px"></div>
+        </div>
+        <div class="mt-2"><strong>Gucci duffle bag</strong></div>
+        <div class="text-danger">$960 <span class="text-dark">$1160</span></div>
+        <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> (75)</span></div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="bg-light p-2">
+          <div class="d-flex">
+              <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-30%</button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+          </div>
+          <div class="text-center mt-3 py-4"><img src="./picture/boffer.png" alt="" width=""></div>
+        </div>
+        <div class="mt-2"><strong>RGB liquid CPU Cooler</strong></div>
+        <div class="text-danger">$160 <span class="text-dark">$170</span></div>
+        <div class="text-warning bold"><i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> (93)</span></div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="bg-light p-2">
+          <div class="d-flex">
+              <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-25%</button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+              <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+          </div>
+          <div class="text-center mt-3"><img src="./picture/book box.png" alt="" width="116px"></div>
+        </div>
+        <div class="mt-2"><strong>Small BookSelf</strong></div>
+        <div class="text-danger">$360 <span class="text-dark">$400</span></div>
+        <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(99)</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row top">
+    <div class="black p-4 d-flex">
+      <div class="col-md-6">
+        <div class="marg">
+          <div class="text-success today mt-5">Categories</div>
+          <div class="text-white mt-4 latter"><h1>Enhance Your <br> Music Experience</h1></div>
+          <div class="d-flex gap-4 mt-4">
+            <div class="bg-white text-center p-3 arow line">
+              <div><strong>23</strong></div>
+              <span class="today">Hours</span>
+            </div>
+            <div class="bg-white text-center p-3 arow line">
+              <div><strong>23</strong></div>
+              <span class="today">Hours</span>
+            </div>
+            <div class="bg-white text-center p-3 arow line">
+              <div><strong>23</strong></div>
+              <span class="today">Hours</span>
+            </div>
+            <div class="bg-white text-center p-3 arow line">
+              <div><strong>23</strong></div>
+              <span class="today">Hours</span>
+            </div>
+          </div>
+          <div class="mt-5"><button type="button" class="btn btn-success px-4 py-2">Buy Now!</button></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mt-3"><img src="./picture/Frame 694.png" alt="" width="100%"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="d-flex mt-5 gap-3">
+    <div class="bg-danger box"></div>
+    <div class="text-danger mt-1 today">This Month</div>
+  </div>
+  <div class="d-flex mt-4">
+    <div class="me-auto"><h2>Best Selling Products</h2></div>
+    <div><button type="button" class="btn btn-danger">View All</button></div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-3">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-40%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3"><img src="./picture/coat.png" alt=""></div>
+      </div>
+      <div class="mt-2"><strong>The north coat</strong></div>
+      <div class="text-danger">$260 <span class="text-dark">$360</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(65)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-35%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3 py-4"><img src="./picture/bag.png" alt="" width="136px"></div>
+      </div>
+      <div class="mt-2"><strong>Gucci duffle bag</strong></div>
+      <div class="text-danger">$960 <span class="text-dark">$1160</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> (75)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-30%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3 py-4"><img src="./picture/boffer.png" alt="" width=""></div>
+      </div>
+      <div class="mt-2"><strong>RGB liquid CPU Cooler</strong></div>
+      <div class="text-danger">$160 <span class="text-dark">$170</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> (93)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-25%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3"><img src="./picture/book box.png" alt="" width="116px"></div>
+      </div>
+      <div class="mt-2"><strong>Small BookSelf</strong></div>
+      <div class="text-danger">$360 <span class="text-dark">$400</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(99)</span></div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-40%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3"><img src="./picture/coat.png" alt=""></div>
+      </div>
+      <div class="mt-2"><strong>The north coat</strong></div>
+      <div class="text-danger">$260 <span class="text-dark">$360</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(65)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-35%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3 py-4"><img src="./picture/bag.png" alt="" width="136px"></div>
+      </div>
+      <div class="mt-2"><strong>Gucci duffle bag</strong></div>
+      <div class="text-danger">$960 <span class="text-dark">$1160</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> (75)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-30%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3 py-4"><img src="./picture/boffer.png" alt="" width=""></div>
+      </div>
+      <div class="mt-2"><strong>RGB liquid CPU Cooler</strong></div>
+      <div class="text-danger">$160 <span class="text-dark">$170</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> (93)</span></div>
+    </div>
+    <div class="col-md-3 ">
+      <div class="bg-light p-2">
+        <div class="d-flex">
+            <div class="me-auto"><button type="button" class="btn btn-danger btn-sm">-25%</button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-heart"></i></button></div>
+            <div><button type="button" class="btn btn-sm"><i class="fa-regular fa-eye"></i></button></div>
+        </div>
+        <div class="text-center mt-3"><img src="./picture/book box.png" alt="" width="116px"></div>
+      </div>
+      <div class="mt-2"><strong>Small BookSelf</strong></div>
+      <div class="text-danger">$360 <span class="text-dark">$400</span></div>
+      <div class="text-warning bold"><i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>  <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <span class="text-dark">(99)</span></div>
+    </div>
+  </div>
+  <div class="text-center mt-5"><button type="button" class="btn btn-danger px-4 py-2">View All Products</button></div>
+  <div class="border mt-5"></div>
+</div>
+
+
+
+<div class="container">
+  <div class="d-flex mt-5 gap-3">
+    <div class="bg-danger box"></div>
+    <div class="text-danger mt-1 today">This Month</div>
+  </div>
+  <div class="mt-4">
+    <div><h2>New Arrival</h2></div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <div class="black position">
+        <div><img class="mt-5" src="./picture/hand.png" alt=""></div>
+        <div class="text-white posi">
+          <h3>PlayStation 5</h3>
+          <p class="mt-3">Black and white version of the PS5 <br> coming out on side.</p>
+          <div class="bot btn text-white">
+            <button type="button" class="black border-0 text-white">Shop Now </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="">
+       <div class="row">
+        <div class="col-md-12">
+          <div class="black woman">
+            <div class="text-end"><img src="./picture/girl.png" alt=""></div>
+            <div class="man text-white">
+              <h3>Woman's Collcetions</h3>
+              <p class="mt-3">Featured woman collections that <br> give you another vibe.</p>
+              <div class="bot btn text-white">
+                <button type="button" class="black border-0 text-white">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="black py-3 hei amzon">
+              <div class="text-center"><img src="./picture/small speker.png" alt=""></div>
+              <div class="wire text-white">
+                <h3>Speakers</h3>
+                <p class="">Amazon wireless speakers</p>
+                <div class="bot btn shop">
+                  <button type="button" class="bla border-0 text-white">Shop Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="black py-4 hei amzon">
+              <div class="text-center"><img src="./picture/sent.png" alt=""></div>
+              <div class="wire text-white">
+                <h3>Perfume</h3>
+                <p class="">GUCCI INTENSE OUD EDP</p>
+                <div class="bot btn shop">
+                  <button type="button" class="bla border-0 text-white">Shop Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="d-flex justify-content-center gap-5 top">
+    <div><img src="./picture/Frame 701.png" alt=""></div>
+    <div><img src="./picture/Frame 702.png" alt=""></div>
+    <div><img src="./picture/Frame 704.png" alt=""></div>
+  </div>
+</div>
+
+<footer class="black top py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="dua text-white">
+          <h5>Exclusive</h5>
+          <ul class="size">
+            <li><a href="">Subscribe</a></li>
+            <li><a href="">Get 10% off your first order</a></li>
+          </ul>
+          <div class="mt-2">
+            <input type="email" class="px-2 black border text-white" placeholder="Enter your email">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="text-white dua">
+          <div>Support</div>
+          <ul class="size">
+            <li><a href="">111 Bijay sarani, Dhaka, DH 1515, Bangladesh.</a></li>
+            <li><a href="">exclusive@gmail.com</a></li>
+            <li><a href="">+8346-82726-2864</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="text-white dua">
+          <div>Account</div>
+          <ul class="size">
+            <li><a href="">My Account</a></li>
+            <li><a href="">Login / Register</a></li>
+            <li><a href="">Cart</a></li>
+            <li><a href="">Wishlist</a></li>
+            <li><a href="">Shop</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="text-white dua">
+          <div>Quick Link</div>
+          <ul class="size">
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms Of Use</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="text-white dua">
+          <div>Download App</div>
+          <p class="save">Save $3 with App New User only</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <div><a href=""><img src="./picture/Qr Code.png" alt=""></a></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                  <div><a href=""><img src="./picture/google.png" alt=""></a></div>
+                  <div class="mt-1"><a href=""><img src="./picture/AppStore.png" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex mt-3 gap-4">
+            <div><a href=""><img src="./picture/Icon-Facebook.png" alt=""></a></div>
+            <div><a href=""><img src="./picture/Icon-Twitter.png" alt=""></a></div>
+            <div><a href=""><img src="./picture/icon-instagram.png" alt=""></a></div>
+            <div><a href=""><img src="./picture/Icon-Linkedin.png" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="jquery-3.7.1.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#mynavbar ul .slide-Move').mouseenter(function(){
+      $('.slider').slideDown('slow');
+    });
+    $('#mynavbar ul .slider').mouseleave(function(){
+      $('.slider').slideUp('slow');
+    });
+    $('.parent-Div .carousel-Animate').mouseenter(function(){
+      $(this).animate({opacity:'0.9',zoom:'104%'})
+    });
+    $('.parent-Div .carousel-Animate').mouseleave(function(){
+      $(this).animate({opacity:'1.0',zoom:'100%'},'slow')
+    });
+  });
+  
+</script>
+</body>
+</html>
